@@ -39,29 +39,3 @@ A typical notebook may include:
 
 This keeps the repo easy to maintain and allows each notebook to act as a clear learning record.
 
----
-
-## Repository Structure
-
-```text
-machine-learning-lab/
-│
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── notebooks/
-│   │
-│   ├── supervised_learning/
-│   ├── unsupervised_learning/
-│   ├── neural_networks/
-│   └── generative_models/
-│
-├── src/
-│   ├── plotting.py
-│   ├── preprocessing.py
-│   └── evaluation.py
-│
-└── reports/
-    ├── figures/
-    └── experiment_notes.md
